@@ -1,6 +1,6 @@
 ## Welcome
 
-Welcome to your new Telegram site.  Check out the [Getting Started](/getting_started) page
+Welcome to your new Telegram site.  Check out the [About](/about) page
 for information on how to set up your site.
 
 <div>
