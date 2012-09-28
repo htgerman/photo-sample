@@ -44,7 +44,7 @@
         margin: -20px -20px 20px;
         }
 
-        .topbar .btn {
+        .navbar .btn {
         border: 0;
         }
 
@@ -55,17 +55,19 @@
 <body>
 <div data-lift="BootstrapUtil.bodyComment"></div>
 
-<div class="navbar-fixed-top">
-    <div class="fill">
-        <div class="container">
+<div class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-inner">
             <a data-lift="site.name" class="brand" href="/">Telegram</a>
-            <ul class="nav-list">
+            <ul class="nav">
                 <li data-lift="menu.items"><a href="#">Home</a></li>
             </ul>
-	    <form data-lift="search" style="float: right"></form>
+	    <form class="navbar-form pull-right" data-lift="search" ></form>
         </div>
     </div>
 </div>
+
+
 
 
 <div class="container">
