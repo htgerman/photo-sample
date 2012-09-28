@@ -1,6 +1,6 @@
 [
 blog_root: "/blog_posts",
-site_title: "My Blog",
+site_title: "Flamencreaciones",
 global_xform: [
 	set-value-xform: ["type", "carousel", 
 		and_test: [
