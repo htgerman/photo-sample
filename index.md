@@ -28,31 +28,31 @@
     <div class="iviewcontainer">
 		<div id="iview">
 			<div data-iview:image="photos/slide1.jpg" data-iview:transition="slice-top-fade,slice-right-fade">
-				<div class="iview-caption caption1" data-x="80" data-y="200">iView<sup>&trade;</sup></div>
-				<div class="iview-caption" data-x="80" data-y="275" data-transition="wipeRight">Made to measure flamenco fashion</div>
+				<div class="iview-caption caption1" data-x="80" data-y="200">Flamencreaciones<sup>&trade;</sup></div>
+				<div class="iview-caption" data-x="80" data-y="275" data-transition="wipeRight">Made to measure flamenco fashion for dancers</div>
 				<div class="iview-caption" data-x="254" data-y="320" data-transition="wipeLeft"><i>from Granada, Spain</i></div>
 			</div>
 
 			<div data-iview:image="photos/slide2.jpg" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom" data-iview:pausetime="3000">
-				<div class="iview-caption caption5" data-x="60" data-y="280" data-transition="wipeDown">Captions can be positioned and resized freely</div>
-				<div class="iview-caption caption6" data-x="300" data-y="350" data-transition="wipeUp"><a href="#">Example URL-link</a></div>
+				<div class="iview-caption caption5" data-x="60" data-y="280" data-transition="wipeDown">Check out samples of my work</div>
+				<div class="iview-caption caption6" data-x="300" data-y="350" data-transition="wipeUp"><a href="imagegallery">Click to view Gallery</a></div>
 			</div>
 
 			<div data-iview:image="photos/slide3.jpg">
-				<div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Some of iView's Options:</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Touch swipe for iOS and Android devices</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Image And Thumbs Fully Resizable</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Customizable Transition Effect</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">Freely Positionable and Stylable Captions</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Cross Browser Compatibility!</div>
+				<div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Looking for:</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Flamenco skirts and tops for class</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Flamenco outfits for stage</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Bata de cola</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">?</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Have it made to measure so it is unique and fits.</div>
 			</div>
 
 			<div data-iview:image="photos/slide4.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for! Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message. All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption" data-x="0" data-y="0" data-width="180" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for! Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message. All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
 			</div>
 
             <div data-iview:image="photos/slide5.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-transition="wipeRight"><h3>Bata de Cola</h3>Made to your measurements from a large variety of colours and materials to ensure you enjoy your bata de cola course or make an impression on stage.</div>
+				<div class="iview-caption" data-x="0" data-y="0" data-width="180" data-transition="wipeRight"><h3>Bata de Cola</h3>Made to your measurements from a large variety of colours and materials to ensure you enjoy your bata de cola course or make an impression on stage.</div>
 			</div>
 
 			<div data-iview:image="photos/slide6.jpg">
