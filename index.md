@@ -42,13 +42,13 @@
 				<div class="iview-caption caption4" data-x="50" data-y="80" data-width="312" data-transition="fade">Looking for:</div>
 				<div class="iview-caption blackcaption" data-x="50" data-y="135" data-transition="wipeLeft" data-easing="easeInOutElastic">Flamenco skirts and tops for class</div>
 				<div class="iview-caption blackcaption" data-x="50" data-y="172" data-transition="wipeLeft" data-easing="easeInOutElastic">Flamenco outfits for stage</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Bata de cola</div>
-				<div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">?</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="209" data-transition="wipeLeft" data-easing="easeInOutElastic">Bata de cola?</div>
+				<div class="iview-caption blackcaption" data-x="50" data-y="246" data-transition="wipeLeft" data-easing="easeInOutElastic">Trousers, vests or ties for men?</div>
 				<div class="iview-caption blackcaption" data-x="50" data-y="283" data-transition="wipeLeft" data-easing="easeInOutElastic">Have it made to measure so it is unique and fits.</div>
 			</div>
 
 			<div data-iview:image="photos/slide4.jpg">
-				<div class="iview-caption" data-x="0" data-y="0" data-width="180" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for! Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message. All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption" data-x="0" data-y="0" data-width="180" data-transition="wipeRight">Find out more about me on the <a href="imagegallery">ABOUT</a> page</div>
 			</div>
 
             <div data-iview:image="photos/slide5.jpg">
@@ -56,7 +56,7 @@
 			</div>
 
 			<div data-iview:image="photos/slide6.jpg">
-				<div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">Elastic practice skirts</div>
+				<div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">Buy elastic practice skirts online</div>
 				<div class="iview-caption caption6" data-x="160" data-y="230" data-transition="wipeRight">Get Yours Now!</div>
 			</div>
 		</div>
