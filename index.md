@@ -48,11 +48,11 @@
 			</div>
 
 			<div data-iview:image="photos/slide4.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you <b><i>all have been waiting for</b></i>!<br><br>Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br><br>All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for!<br /><br />Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br /><br />All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
 			</div>
 
             <div data-iview:image="photos/slide5.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you <b><i>all have been waiting for</b></i>!<br><br>Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br><br>All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for!<br /><br />Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br /><br />All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
 			</div>
 
 			<div data-iview:image="photos/slide6.jpg">
