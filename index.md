@@ -30,7 +30,7 @@
 			<div data-iview:image="photos/slide1.jpg" data-iview:transition="slice-top-fade,slice-right-fade">
 				<div class="iview-caption caption1" data-x="80" data-y="200">iView<sup>&trade;</sup></div>
 				<div class="iview-caption" data-x="80" data-y="275" data-transition="wipeRight">Made to measure flamenco fashion</div>
-				<div class="iview-caption" data-x="254" data-y="320" data-transition="wipeLeft"><i>Presented by <b>Hemn Chawroka</b></i></div>
+				<div class="iview-caption" data-x="254" data-y="320" data-transition="wipeLeft"><i>from Granada, Spain</i></div>
 			</div>
 
 			<div data-iview:image="photos/slide2.jpg" data-iview:transition="zigzag-drop-top,zigzag-drop-bottom" data-iview:pausetime="3000">
@@ -48,15 +48,15 @@
 			</div>
 
 			<div data-iview:image="photos/slide4.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for!<br /><br />Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br /><br />All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for! Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message. All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
 			</div>
 
             <div data-iview:image="photos/slide5.jpg">
-				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>The Responsive Caption</h3>This is the product that you all have been waiting for!<br /><br />Customize this slider with just a little HTML and CSS to your very needs. Give each slider some captions to transport your message.<br /><br />All in all it works on every browser (including IE6 / 7 / 8) and on iOS and Android devices!</div>
+				<div class="iview-caption caption7" data-x="0" data-y="0" data-width="180" data-height="480" data-transition="wipeRight"><h3>Bata de Cola</h3>Made to your measurements from a large variety of colours and materials to ensure you enjoy your bata de cola course or make an impression on stage.</div>
 			</div>
 
 			<div data-iview:image="photos/slide6.jpg">
-				<div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">Bata de Cola</div>
+				<div class="iview-caption caption5" data-x="60" data-y="150" data-transition="wipeLeft">Elastic practice skirts</div>
 				<div class="iview-caption caption6" data-x="160" data-y="230" data-transition="wipeRight">Get Yours Now!</div>
 			</div>
 		</div>
