@@ -1,4 +1,5 @@
 yaml {
+[
 blog_root: "/blog_posts",
 site_title: "Flamencreaciones",
 external_link: {
@@ -6,4 +7,5 @@ external_link: {
      set-value-xform: ["type", "gal"]
 
  }
+ ]
 } yaml
