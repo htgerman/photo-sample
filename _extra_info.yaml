@@ -10,3 +10,7 @@ global_xform: [
 		]
 	]
 ]
+
+external_link: {
+     url: "dropbox:/telegram/gallery"
+ }
