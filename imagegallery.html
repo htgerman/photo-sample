@@ -88,7 +88,7 @@ $(function () {
     $(document).ready(function() {
         alert("about to getJSON");
      //   $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
-           $.getJSON("https://secure.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
+           $.getJSON("https://secure.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=json&amp;jsoncallback=?", displayImages);
         function displayImages(data) {
      alert("about to displayImages");
     // Start putting together the HTML string
