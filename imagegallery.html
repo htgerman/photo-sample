@@ -60,6 +60,8 @@ $(function () {
             photoset_id: '72157631630453288'
         },
 	    dataType: 'jsonp',
+        crossDomain: true,
+        async: false,
         jsonp: 'jsoncallback'
     }).done(function (data) {
         var gallery = $('#gallery'),
