@@ -85,11 +85,11 @@ $(function () {
  <div id="images"></div>
 <script type="text/javascript">
     $(document).ready(function() {
-
+        alert("about to getJSON");
         $.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=998875@N22âŒ©=en-us&amp;format=jsonp&amp;jsoncallback=?", displayImages);
     });
 function displayImages(data) {
-
+     alert("about to displayImages");
     // Start putting together the HTML string
      var htmlString = "<ul>";
 
@@ -98,7 +98,7 @@ function displayImages(data) {
 
         // I only want the ickle square thumbnails
          var sourceSquare = (item.media.m).replace("_m.jpg", "_s.jpg");
-
+         alert(item.title);
         // Here's where we piece together the HTML
          htmlString += '<li><a href="' + item.link + '" target="_blank">';
          htmlString += '<img title="' + item.title + '" src="' + sourceSquare;
