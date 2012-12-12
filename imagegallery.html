@@ -84,8 +84,10 @@ $(function () {
  <h3>Another way to get flickr photos</h3>
  <div id="images"></div>
 <script type="text/javascript">
-    $.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=998875@N22âŒ©=en-us&amp;format=jsonp&amp;jsoncallback=?", displayImages);
+    $(document).ready(function() {
 
+        $.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=998875@N22âŒ©=en-us&amp;format=jsonp&amp;jsoncallback=?", displayImages);
+    });
 function displayImages(data) {
 
     // Start putting together the HTML string
