@@ -6,9 +6,11 @@ order: 60
      <head_place>
          <link rel="stylesheet" href="/css/bootstrap-image-gallery.min.css">
     </head_place>
+    <!--
     <div id="jalbum">
         <iframe src="http://patitaflamenca.jalbum.net/test/" frameborder="0" style="height:800px; width:950px;"></iframe>
     </div>
+    -->
     <h2>Dresses</h2>
     <p>Below you will find some examples of work I have done for clients. Most of them are one-off pieces made from fabrics brought by clients.</p>
 
@@ -79,10 +81,10 @@ $(function () {
     });
 });
 </script>
-
+ <h3>Another way to get flickr photos</h3>
  <div id="images"></div>
 <script type="text/javascript">
-    $.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=998875@N22âŒ©=en-us&amp;format=json&amp;jsoncallback=?", displayImages);
+    $.getJSON("http://api.flickr.com/services/feeds/groups_pool.gne?id=998875@N22âŒ©=en-us&amp;format=jsonp&amp;jsoncallback=?", displayImages);
 
 function displayImages(data) {
 
