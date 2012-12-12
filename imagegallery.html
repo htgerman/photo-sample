@@ -55,7 +55,8 @@ $(function () {
     // Load images via flickr:
 
     $.ajax({
-        url: 'http://api.flickr.com/services/rest/',
+       // url: 'http://api.flickr.com/services/rest/',
+        url: 'https://secure.flickr.com/services/rest',
         data: {
             format: 'json',
             method: 'flickr.photosets.getPhotos',
@@ -86,7 +87,8 @@ $(function () {
 <script type="text/javascript">
     $(document).ready(function() {
         alert("about to getJSON");
-        $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
+     //   $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
+           $.getJSON("https://secure.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
         function displayImages(data) {
      alert("about to displayImages");
     // Start putting together the HTML string
