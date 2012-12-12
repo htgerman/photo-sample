@@ -84,35 +84,16 @@ $(function () {
 </script>
  <h3>Another way to get flickr photos</h3>
  <div id="images"></div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        alert("about to getJSON");
-     //   $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=jsonp&amp;jsoncallback=?", displayImages);
-           $.getJSON("https://secure.flickr.com/services/feeds/photos_public.gne?tag=flamenco&amp;format=json&amp;jsoncallback=?", displayImages);
-        function displayImages(data) {
-     alert("about to displayImages");
-    // Start putting together the HTML string
-     var htmlString = "<ul>";
-
-    // Now start cycling through our array of Flickr photo details
-     $.each(data.items, function(i,item){
-
-        // I only want the ickle square thumbnails
-         var sourceSquare = (item.media.m).replace("_m.jpg", "_s.jpg");
-         alert(item.title);
-        // Here's where we piece together the HTML
-         htmlString += '<li><a href="' + item.link + '" target="_blank">';
-         htmlString += '<img title="' + item.title + '" src="' + sourceSquare;
-         htmlString += '" alt="'; htmlString += item.title + '" />';
-         htmlString += '</a></li>';
-
-    });
-     htmlString += '</ul>'
-    // Pop our HTML in the #images DIV
-     $('#images').html(htmlString);
-
-    // Close down the JSON function call
- }
-    });
-
+<script>
+    $.getJSON("https://secure.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+            {
+                tags: "mount rainier",
+                tagmode: "any",
+                format: "json"
+            },
+            function(data)
+            {    $.each(data.items, function(i,item){
+                $("<img/>").attr("src", item.media.m).appendTo("#images");
+                if ( i == 3 ) return false;    });
+            });
 </script>
