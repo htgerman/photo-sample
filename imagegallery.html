@@ -51,7 +51,8 @@ $(function () {
     'use strict';
 
     // Load images via flickr:
-    $.ajax({
+    //$.ajax({
+    $.getJSON({
         url: 'http://api.flickr.com/services/rest/',
         data: {
             format: 'json',
