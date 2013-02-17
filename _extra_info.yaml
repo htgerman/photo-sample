@@ -4,6 +4,6 @@ site_title: "Anke's Playground",
 has_blog: true,
 external_link: [
 url: "dropbox:/telegram/videoposts",
-set-value-xform: ["post", "true"]
+set-value-xform: ["post", true]
 ]
 ]
