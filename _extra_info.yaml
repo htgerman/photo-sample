@@ -4,6 +4,6 @@ site_title: "Flamencreaciones Playground",
 has_blog: true,
 external_link: [
 url: "dropbox:/telegram/videoposts",
-set-value-xform: ["type", "video"]
+set-value-xform: ["post", true]
 ]
 ]
