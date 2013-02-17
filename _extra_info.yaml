@@ -1,8 +1,8 @@
 yaml {
 [
-blog_root: "dropbox:/telegram/videoposts",
+blog_root: "/blog_posts",
 site_title: "New Flamencreaciones",
-has_bog: true,
+has_blog: true,
 external_link: {
 url: "dropbox:/telegram/videoposts",
 set-value-xform: ["post", true]
