@@ -1,10 +1,9 @@
-yaml {
 [
 blog_root: "/blog_posts",
-site_title: "Flamencreaciones",
+site_title: "New Flamencreaciones",
+template_url: "https://github.com/telegr-am/template-base.git",
 external_link: {
 url: "Dropbox:/telegram/videoposts",
 set-value-xform: ["post", true]
 }
 ]
-} yaml
