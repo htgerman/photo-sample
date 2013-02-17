@@ -3,8 +3,8 @@ yaml {
 blog_root: "/blog_posts",
 site_title: "Flamencreaciones",
 external_link: {
-   url: "dropbox:/telegram/videoposts",
-   set-value-xform: ["post", true]
- }
- ]
+url: "Dropbox:/telegram/videoposts",
+set-value-xform: ["post", true]
+}
+]
 } yaml
