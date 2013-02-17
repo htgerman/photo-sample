@@ -1,3 +1,7 @@
+[title: Really Funny Doggy]: /
+
+[category: pups]: /
+
 ## Checking out how to embed videos
 
 
@@ -7,7 +11,6 @@ Go have a look. This is really cute.
 
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/d69Wj4VdP-o" frameborder="0" allowfullscreen>
-
 </iframe>
 
 Some more text goes here:
@@ -19,6 +22,4 @@ Some more text goes here:
 
 
 
-[title: Really Funny Doggy]: /
 
-[category: pups]: /

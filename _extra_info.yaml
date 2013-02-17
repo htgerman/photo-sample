@@ -5,7 +5,7 @@ site_title: "New Flamencreaciones",
 has_blog: true,
 external_link: {
 url: "dropbox:/telegram/videoposts",
-set-value-xform: ["post", true]
+set-value-xform: ["type", "video"]
 }
 ]
 } yaml
